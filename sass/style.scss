@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.headerBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  .headerLogo {
+    display: flex;
+    align-items: center;
+    .logoImg {
+      width: 45px;
+    }
+    .logoText {
+      padding: 5px 15px;
+      /* Style for "Prechu" */
+      color: #000000;
+      font-family: "Open Sans";
+      font-size: 42px;
+      font-weight: 300;
+      /* Text style for "Prechu" */
+      //letter-spacing: 0.42px;
+    }
+  }
+}

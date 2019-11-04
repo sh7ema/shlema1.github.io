@@ -20,14 +20,17 @@ img {
   justify-content: space-between;
   padding: 25px;
 }
-.headerBlock .headerLogo {
+
+.headerLogo {
   display: flex;
   align-items: center;
 }
-.headerBlock .headerLogo .logoImg {
+
+.logoImg {
   width: 45px;
 }
-.headerBlock .headerLogo .logoText {
+
+.logoText {
   padding: 5px 15px;
   /* Style for "Prechu" */
   color: #000000;
@@ -36,7 +39,8 @@ img {
   font-weight: 300;
   /* Text style for "Prechu" */
 }
-.headerBlock .headerMenu ul .headerMenu_item {
+
+.headerMenu_item {
   display: inline-block;
 }
 

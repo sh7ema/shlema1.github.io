@@ -36,4 +36,12 @@ img {
       //letter-spacing: 0.42px;
     }
   }
+  .headerMenu {
+    .burgerMenu {}
+    ul {
+      .headerMenu_item {
+        display: inline-block;
+      }
+    }
+  }
 }

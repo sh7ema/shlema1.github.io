@@ -40,8 +40,143 @@ img {
   /* Text style for "Prechu" */
 }
 
-.headerMenu_item {
+@media screen and (max-width: 800px) {
+  .headerMenu {
+    position: relative;
+  }
+  .headerMenu ul {
+    background: #000;
+    display: none;
+    position: absolute;
+    top: 26px;
+    left: -77px;
+  }
+  .headerMenu ul li {
+    display: block;
+  }
+  .headerMenu:hover ul {
+    display: block;
+  }
+}
+
+.burgerMenu {
+  display: none;
+  width: 58px;
+  height: 44px;
+  font-size: 30px;
+  background-color: #5094f2;
+}
+@media screen and (max-width: 800px) {
+  .burgerMenu {
+    display: flex;
+    width: 60px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.headerMenu__item {
   display: inline-block;
+  list-style: none;
+  padding: 20px;
+}
+.headerMenu__item:hover {
+  cursor: pointer;
+  background: #373737;
+}
+.headerMenu__item:hover a {
+  color: white;
+}
+.headerMenu__item a {
+  color: #6c6c6c;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.bannerBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+  background-image: url(../img/backgroundBanner.png);
+  max-width: 1024px;
+}
+@media screen and (max-width: 800px) {
+  .bannerBlock {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.sliderLeft button {
+  max-width: 25px;
+  background-color: Transparent;
+  border: none;
+}
+@media screen and (max-width: 800px) {
+  .sliderLeft {
+    display: none;
+  }
+}
+
+.sliderRight button {
+  max-width: 25px;
+  background-color: Transparent;
+  border: none;
+}
+@media screen and (max-width: 800px) {
+  .sliderRight {
+    display: none;
+  }
+}
+
+.bannerContent {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 800px) {
+  .bannerContent {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.bannerText {
+  padding-top: 110px;
+}
+.bannerText__paragraph {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  line-height: 44.42px;
+}
+.bannerText__paragraph h2 {
+  font-size: 46px;
+}
+.bannerText__paragraph p {
+  font-size: 26px;
+  padding-top: 20px;
+}
+.bannerText__button {
+  padding-top: 35px;
+  padding-left: 15px;
+}
+.bannerText__button button {
+  display: flex;
+  justify-content: space-around;
+  width: 170px;
+  font-size: 22px;
+  color: white;
+  font-weight: 300;
+  background-color: #5094f2;
+}
+.bannerText__button button img {
+  width: 23px;
 }
 
 /*# sourceMappingURL=style.css.map */

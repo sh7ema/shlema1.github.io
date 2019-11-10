@@ -253,6 +253,7 @@ main {
 }
 @media screen and (max-width: 800px) {
   .pen {
+    margin: 0 auto;
     flex-direction: row;
     text-align: left;
     padding-bottom: 20px;
@@ -303,6 +304,7 @@ main {
 }
 @media screen and (max-width: 800px) {
   .tv {
+    margin: 0 auto;
     flex-direction: row;
     text-align: left;
     padding-bottom: 20px;
@@ -342,7 +344,6 @@ main {
 }
 
 .basket {
-  margin-right: 40px;
   display: flex;
   justify-content: center;
   align-content: space-between;
@@ -354,6 +355,7 @@ main {
 }
 @media screen and (max-width: 800px) {
   .basket {
+    margin: 0 auto;
     flex-direction: row;
     text-align: left;
     padding-top: 20px;

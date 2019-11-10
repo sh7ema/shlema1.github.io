@@ -231,6 +231,7 @@ main {
   font-family: "Open Sans";
   font-weight: 400;
   @media screen and (max-width:800px) {
+    margin: 0 auto;
     flex-direction: row;
     text-align: left;
     padding-bottom: 20px;
@@ -275,6 +276,7 @@ main {
   font-family: "Open Sans";
   font-weight: 400;
   @media screen and (max-width:800px) {
+    margin: 0 auto;
     flex-direction: row;
     text-align: left;
     padding-bottom: 20px;
@@ -310,7 +312,7 @@ main {
 }
 
 .basket {
-  margin-right: 40px;
+  //margin-right: 40px;
   display: flex;
   justify-content: center;
   align-content: space-between;
@@ -320,6 +322,7 @@ main {
   font-family: "Open Sans";
   font-weight: 400;
   @media screen and (max-width:800px) {
+    margin: 0 auto;
     flex-direction: row;
     text-align: left;
     padding-top: 20px;

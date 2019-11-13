@@ -95,13 +95,18 @@ img {
     font-weight: 400;
   }
 }
+
+//.banner {
+//  background-image: url(../img/backgroundBanner.png);
+//}
+
 .bannerBlock {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 15px;
   background-image: url(../img/backgroundBanner.png);
-  max-width: 1024px;
+  //max-width: 1024px;
   @media screen and (max-width:640px) {
     flex-direction: column;
     justify-content: center;

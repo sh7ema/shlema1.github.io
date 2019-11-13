@@ -40,7 +40,7 @@ img {
   /* Text style for "Prechu" */
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .headerMenu {
     position: relative;
   }
@@ -66,7 +66,7 @@ img {
   font-size: 30px;
   background-color: #5094f2;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .burgerMenu {
     display: flex;
     width: 60px;
@@ -104,7 +104,7 @@ img {
   background-image: url(../img/backgroundBanner.png);
   max-width: 1024px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .bannerBlock {
     flex-direction: column;
     justify-content: center;
@@ -116,7 +116,7 @@ img {
   background-color: Transparent;
   border: none;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .sliderLeft {
     display: none;
   }
@@ -127,7 +127,7 @@ img {
   background-color: Transparent;
   border: none;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .sliderRight {
     display: none;
   }
@@ -139,7 +139,7 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .bannerContent {
     width: 100%;
     justify-content: center;
@@ -159,7 +159,7 @@ img {
   padding-top: 110px;
   padding-left: 100px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .bannerText {
     padding-top: 0;
     padding-left: 55px;
@@ -171,7 +171,7 @@ img {
   font-weight: 400;
   line-height: 44.42px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .bannerText__paragraph {
     font-weight: 300;
     line-height: 32px;
@@ -180,7 +180,7 @@ img {
 .bannerText__paragraph h2 {
   font-size: 46px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .bannerText__paragraph h2 {
     font-size: 30px;
   }
@@ -189,7 +189,7 @@ img {
   font-size: 26px;
   padding-top: 20px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .bannerText__paragraph p {
     font-size: 30px;
     padding-top: 15px;
@@ -223,7 +223,7 @@ main {
   flex-direction: column;
   padding: 50px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .shopping {
     padding: 35px 20px 50px 20px;
   }
@@ -234,7 +234,7 @@ main {
   justify-content: space-between;
   align-items: center;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .shoppingIcon {
     flex-direction: column;
   }
@@ -251,7 +251,7 @@ main {
   font-family: "Open Sans";
   font-weight: 400;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .pen {
     margin: 0 auto;
     flex-direction: row;
@@ -264,7 +264,7 @@ main {
   margin-bottom: 20px;
   max-width: 185px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .pen__img {
     max-width: 135px;
     padding-right: 25px;
@@ -275,7 +275,7 @@ main {
   font-size: 20px;
   line-height: 44.42px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .pen__text h3 {
     font-size: 34px;
     line-height: 51.86px;
@@ -285,7 +285,7 @@ main {
   color: #909090;
   font-size: 14px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .pen__text p {
     font-size: 20px;
   }
@@ -302,7 +302,7 @@ main {
   font-family: "Open Sans";
   font-weight: 400;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .tv {
     margin: 0 auto;
     flex-direction: row;
@@ -316,7 +316,7 @@ main {
   margin-bottom: 20px;
   max-width: 185px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .tv__img {
     max-width: 135px;
     padding-right: 25px;
@@ -327,7 +327,7 @@ main {
   font-size: 20px;
   line-height: 44.42px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .tv__text h3 {
     font-size: 34px;
     line-height: 51.86px;
@@ -337,7 +337,7 @@ main {
   color: #909090;
   font-size: 14px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .tv__text p {
     font-size: 20px;
   }
@@ -353,7 +353,7 @@ main {
   font-family: "Open Sans";
   font-weight: 400;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .basket {
     margin: 0 auto;
     flex-direction: row;
@@ -367,7 +367,7 @@ main {
   margin-bottom: 20px;
   max-width: 185px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .basket__img {
     max-width: 135px;
     padding-right: 25px;
@@ -378,7 +378,7 @@ main {
   font-size: 20px;
   line-height: 44.42px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .basket__text h3 {
     font-size: 34px;
     line-height: 51.86px;
@@ -388,7 +388,7 @@ main {
   color: #909090;
   font-size: 14px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .basket__text p {
     font-size: 20px;
   }
@@ -400,7 +400,7 @@ main {
   align-items: center;
   padding-top: 95px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .shoppingCart {
     flex-direction: column;
     padding-top: 50px;
@@ -429,7 +429,7 @@ main {
 .shoppingLogo__img {
   max-width: 370px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .shoppingLogo__img {
     max-width: 215px;
     padding-right: 25px;
@@ -440,7 +440,7 @@ main {
   padding-left: 80px;
   font-family: "Open Sans";
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .shoppingText {
     padding: 0;
   }
@@ -452,7 +452,7 @@ main {
   line-height: 44.42px;
   color: #6f7173;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .shoppingText h3 {
     font-size: 34px;
   }
@@ -463,7 +463,7 @@ main {
   font-weight: 300;
   line-height: 36px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .shoppingText p {
     font-size: 17px;
   }
